@@ -1,473 +1,319 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/line-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Billo Pro - Bootstrap 5 Landing Template</title>
-</head>
-
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-
-    <!--navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-aos="fade-down">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <!-- NAV -->
+    <nav class="navbar fixed-top py-3 navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">BILLO.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+          <a class="navbar-brand" href="#">ICI LOGO AQUÍ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portafolio</a>
+              </li>
 
-    <!--hero-->
-    <section id="home" class="bg-cover hero-section" style="background-image: url(img/cover_1.jpg);">
-        <div class="overlay"></div>
-        <div class="container text-white text-center">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="display-4" data-aos="zoom-in">We Design Remarkable and<br>
-                        Stunning Bootstrap Websites</h1>
-                    <p class="my-4" data-aos="fade-up">There are many variations of passages of Lorem Ipsum available, but the majority<br>
-                        have suffered alteration in some form, by injected humour, or randomised words</p>
-                    <a href="#" data-aos="fade-up" class="btn btn-main">Get started</a>
-                </div>
-            </div>
+            </ul>
+          </div>
         </div>
-    </section>
+      </nav>
+      <!-- ABOUT --> 
+      <section id="about" class="bg-cover hero-section" style="background-image: linear-gradient(rgba(14, 0, 0, 0.76), rgba(36, 35, 35, 0.5)), url(img/cover_1.jpg);">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <h1>INGENIERÍA, CONSULTORÍA E INVESTIGACIÓN</h1>
+                        <div class="servicios-head">
+                            <span>
+                                Vanguardia
+                            </span>
+                            <span>/</span>
+                            <span>
+                                Diseño
+                            </span>
+                            <span>
+                                /
+                            </span>
+                            <span>
+                                Ingeniería
+                            </span>
+                        </div>
+                        <p class="mt-4">
+                            ICI ofrece soluciones integrales en calidad de diseño, supervisión y construcción mediante la implementación de tecnología y filosofías de construcción, orientadas a mejorar la productividad y eficiencia de procesos constructivos.
+                        </p>
+                        <a href="#" class="btn btn-brand mt-4">Conoce los servicios que ofrecemos</a>
+                    </div>
+                    <!--
+                <div class="col-lg-4">
+                        <div class="ellipse-top"></div>
+                        <div class="ellipse-bottom"></div>
+                </div> -->
 
-    <!--services-->
-    <section id="services" class="text-center">
+              </div>
+          </div>
+      </section>
+<div class="container divider"></div>    <!-- SERVICES-->
+    <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h1>Our Services</h1>
-                    <div class="divider"></div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered<br>
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                <div class="col-12 intro">
+                    <h1><span class="text-brand">Nuestros Servicios</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate quidem aspernatur tempora aliquid excepturi, dolorem ullam sapiente minima magnam delectus hic veritatis non? Eveniet neque similique dolor veritatis nobis!
                     </p>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-md-4" data-aos="zoom-in">
+            <div class="row g-5">
+                <div class="col-lg-4">
                     <div class="service">
-                        <div class="service-img">
-                            <img src="img/image_1.jpg" alt="">
-                            <div class="icon"><i class="icon-browser"></i></div>
+                        <div>
+                            <h5>Gerencia De Proyectos</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
-                        <h5 class="mt-5 pt-4">Service Name</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form</p>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="zoom-in">
+                <div class="col-lg-4">
                     <div class="service">
-                        <div class="service-img">
-                            <img src="img/image_2.jpg" alt="">
-                            <div class="icon"><i class="icon-bargraph"></i></div>
+                        <div>
+                            <h5>Diseño y Supervisión de Instalaciones</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
-                        <h5 class="mt-5 pt-4">Service Name</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form</p>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="zoom-in">
+                <div class="col-lg-4">
                     <div class="service">
-                        <div class="service-img">
-                            <img src="img/image_3.jpg" alt="">
-                            <div class="icon"><i class="icon-camera"></i></div>
+                        <div>
+                            <h5>Topografía</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
-                        <h5 class="mt-5 pt-4">Service Name</h5>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service">
+                        <div>
+                            <h5>Gerencia De Proyectos</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service">
+                        <div>
+                            <h5>Diseño y Supervisión de Instalaciones</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service">
+                        <div>
+                            <h5>Topografía</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--about-->
-    <section id="about" class="bg-cover" style="background-image: url(img/cover_3.jpg);">
-        <div class="overlay"></div>
-        <div class="container text-white text-center">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h1>Watch our video</h1>
-                    <div class="divider"></div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered<br>
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    </p>
-                    <a href="#" class="video-btn"><i class='bx bx-play'></i></a>
+    <div class="container divider"></div>
+
+        <!--hero-->
+<section id="home">
+
+            <div class="container text-white text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-4" data-aos="zoom-in">ARQUITECTURA - INGENIERÍA - <span class="text-brand" style="font-weight: bold;">INVESTIGACIÓN</span></h1>
+                        <p class="my-4" data-aos="fade-up">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                            Nos vinculamos a la investigación científica.</p>
+                        <a href="#" data-aos="fade-up" class="btn btn-brand mt-4">Vísita Nuestro Blog</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        
+    <div class="container divider"></div>
 
-    <!--features-->
-    <section id="features" class="text-center">
+    <section id="proyectos">
         <div class="container">
             <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <div class="divider"></div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered<br>
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    </p>
+                <div class="col-12 intro">
+                <h1><span class="text-brand">Proyectos</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi itaque odit consequuntur, iste ipsa animi voluptatem optio, possimus aperiam quas voluptatum illo in ducimus provident nulla? Recusandae culpa praesentium aliquam.</p>
                 </div>
             </div>
-            <div class="row gx-4 gy-5">
-                <div class="col-md-4 feature" data-aos="fade-up">
-                    <div class="icon"><i class="icon-tools"></i></div>
-                    <h5 class="mt-4 mb-3">Feature Title</h5>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form</p>
-                </div>
-                <div class="col-md-4 feature" data-aos="fade-up">
-                    <div class="icon"><i class="icon-browser"></i></div>
-                    <h5 class="mt-4 mb-3">Feature Title</h5>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form</p>
-                </div>
-                <div class="col-md-4 feature" data-aos="fade-up">
-                    <div class="icon"><i class="icon-calendar"></i></div>
-                    <h5 class="mt-4 mb-3">Feature Title</h5>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form</p>
-                </div>
-                <div class="col-md-4 feature" data-aos="fade-up">
-                    <div class="icon"><i class="icon-camera"></i></div>
-                    <h5 class="mt-4 mb-3">Feature Title</h5>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form</p>
-                </div>
-                <div class="col-md-4 feature" data-aos="fade-up">
-                    <div class="icon"><i class="icon-scissors"></i></div>
-                    <h5 class="mt-4 mb-3">Feature Title</h5>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form</p>
-                </div>
-                <div class="col-md-4 feature" data-aos="fade-up">
-                    <div class="icon"><i class="icon-strategy"></i></div>
-                    <h5 class="mt-4 mb-3">Feature Title</h5>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form</p>
-                </div>
+            <div class="row g-5">
+            <div class="col-lg-6">
+                <div class="card dark">
+                    <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto - Cliente</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugiat provident iure nisi ipsa, voluptas sapiente deserunt nesciunt magnam eveniet autem quia facere voluptatum eaque quam aliquid maiores nihil? Ipsum.</p>
+                      <a href="#" class="btn btn-brand mt-4">Ver</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card dark">
+                    <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto - Cliente</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugiat provident iure nisi ipsa, voluptas sapiente deserunt nesciunt magnam eveniet autem quia facere voluptatum eaque quam aliquid maiores nihil? Ipsum.</p>
+                      <a href="#" class="btn btn-brand mt-4">Ver</a>
+                    </div>
+                  </div>
+            </div>
             </div>
         </div>
     </section>
+    <div class="container divider"></div>
 
-    <!--counters-->
-    <section class="bg-cover" style="background-image: url(img/cover_2.jpg);">
-        <div class="overlay"></div>
-        <div class="container text-white text-center">
-            <div class="row gy-4" data-aos="fade-up">
-                <div class="col-md-3">
-                    <i class="icon-trophy h1"></i>
-                    <h1 class="mt-3 mb-2">45,00</h1>
-                    <p>Awards Won</p>
-                </div>
-                <div class="col-md-3">
-                    <i class="icon-camera h1"></i>
-                    <h1 class="mt-3 mb-2">120k</h1>
-                    <p>Pictures Taken</p>
-                </div>
-                <div class="col-md-3">
-                    <i class="icon-happy h1"></i>
-                    <h1 class="mt-3 mb-2">30M+</h1>
-                    <p>Happy Clients</p>
-                </div>
-                <div class="col-md-3">
-                    <i class="icon-paintbrush h1"></i>
-                    <h1 class="mt-3 mb-2">4,005</h1>
-                    <p>Themes Designed</p>
-                </div>
+    <footer class="text-center text-lg-start">
+        
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4" >
+
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>ICI Ingeniería
+                </h6>
+                <p>
+                  Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Certificaciones
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Cert 1</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Asociación 2</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Sitios de Interés
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Firma Amiga</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Provedoor</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Arquitecto</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">FAQ</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contacto
+                </h6>
+                <p><i class="fas fa-home me-3"></i>Osa Mayor 2520, Reserva Territorial Atlixcáyotl, Centros Comerciales Desarrollo Atlixcayotl, 72190 Puebla, Pue.</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@ici.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
             </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href="">ICI</a>
         </div>
-    </section>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
 
-    <!--reviews-->
-    <section id="reviews" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro text-center">
-                    <h1>Our Testimonials</h1>
-                    <div class="divider"></div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered<br>
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4 text-start">
-                <div class="col-md-4" data-aos="fade-up">
-                    <div class="review p-4">
-                        <div class="person">
-                            <img src="img/avatar_1.jpg" alt="">
-                            <div class="text ms-3">
-                                <h6 class="mb-0">John Walker</h6>
-                                <small>Google</small>
-                            </div>
-                        </div>
-                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-                        <div class="stars">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4" data-aos="fade-up">
-                    <div class="review p-4">
-                        <div class="person">
-                            <img src="img/avatar_2.jpg" alt="">
-                            <div class="text ms-3">
-                                <h6 class="mb-0">John Walker</h6>
-                                <small>Google</small>
-                            </div>
-                        </div>
-                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-                        <div class="stars">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4" data-aos="fade-up">
-                    <div class="review p-4">
-                        <div class="person">
-                            <img src="img/avatar_3.jpg" alt="">
-                            <div class="text ms-3">
-                                <h6 class="mb-0">John Walker</h6>
-                                <small>Google</small>
-                            </div>
-                        </div>
-                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-                        <div class="stars">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4" data-aos="fade-up">
-                    <div class="review p-4">
-                        <div class="person">
-                            <img src="img/avatar_2.jpg" alt="">
-                            <div class="text ms-3">
-                                <h6 class="mb-0">John Walker</h6>
-                                <small>Google</small>
-                            </div>
-                        </div>
-                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-                        <div class="stars">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4" data-aos="fade-up">
-                    <div class="review p-4">
-                        <div class="person">
-                            <img src="img/avatar_1.jpg" alt="">
-                            <div class="text ms-3">
-                                <h6 class="mb-0">John Walker</h6>
-                                <small>Google</small>
-                            </div>
-                        </div>
-                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-                        <div class="stars">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4" data-aos="fade-up">
-                    <div class="review p-4">
-                        <div class="person">
-                            <img src="img/avatar_3.jpg" alt="">
-                            <div class="text ms-3">
-                                <h6 class="mb-0">John Walker</h6>
-                                <small>Google</small>
-                            </div>
-                        </div>
-                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-                        <div class="stars">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--blog-->
-    <section id="blog" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h1>Our Blog Posts</h1>
-                    <div class="divider"></div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered<br>
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    </p>
-                </div>
-            </div>
-            <div class="row text-start">
-                <div class="col-md-4" data-aos="fade-up">
-                    <img src="img/blog_post1.png" alt="">
-                    <div class="mt-4">
-                        <small>Posted in <a href="#">Web Design</a>, 12 Dec 2055</small>
-                        <h5 class="mt-1 mb-2"><a href="#">Website design in 2055</a></h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up">
-                    <img src="img/blog_post2.png" alt="">
-                    <div class="mt-4">
-                        <small>Posted in <a href="#">Web Design</a>, 12 Dec 2055</small>
-                        <h5 class="mt-1 mb-2"><a href="#">Website design in 2055</a></h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up">
-                    <img src="img/blog_post3.png" alt="">
-                    <div class="mt-4">
-                        <small>Posted in <a href="#">Web Design</a>, 12 Dec 2055</small>
-                        <h5 class="mt-1 mb-2"><a href="#">Website design in 2055</a></h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--contact-->
-    <section id="contact" class="bg-cover text-white" style="background-image: url(img/cover_3.jpg);">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h1>Get in touch</h1>
-                    <div class="divider"></div>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered<br>
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 mx-auto" data-aos="fade-up">
-                    <form action="#" class="row g-4">
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Full name">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="email" class="form-control" placeholder="Email address">
-                        </div>
-                        <div class="form-group col-md-12">
-                            <input type="text" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="form-group col-md-12">
-                            <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <div class="text-center">
-                            <button class="btn btn-main" type="submit">Send Message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--footer-->
-    <footer class="py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="mb-0">Copyright © 2015-2020. Designed By Salman</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <div>
-                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#"><i class='bx bxl-dribbble'></i></a>
-                        <a href="#"><i class='bx bxl-instagram'></i></a>
-                        <a href="#"><i class='bx bxl-github'></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/app.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
